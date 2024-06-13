@@ -1,0 +1,149 @@
+HTTP: HYPER TEXT TRANSFER PROTOCOL 
+
+Protoco(Protokol): Veri iletişimindeki kuralların tümüne protokol denir. Gönderilen/ alınan paketlerin sıraları, doğrulukları, eksik paket olup olmadığı vb... kuralların tümüne protokol denir. 
+
+HTTP METOTLARI 
+
+GET 
+POST 
+PUT 
+DELETE
+PATCH 
+HEAD
+OPTIONS
+
+
+GET: Belirli bir kaynaktan veri talep etmek için kullanılır. (Veri almak için) 
+
+POST: Sunucuya veri göndermek için kullanılır. Buradaki amaç, sunucudaki bir yere ekleme, güncelleme yapmaktır. 
+
+Get                                                                                POST 
+                                                                                   Post istekleri, Cache'lenemez.
+Get istekleri, Cache'lenebilir.                                                    Post istekleri, tarayıcı geçmişinde kalmaz.
+Get istekleri, Tarayıcının geçmişinde kalır.                                       Post isteklerinin veride kısıtlaması       yoktur. 
+Get, hassas veri ilgilenirken kullanılmamalıdır. 
+Get isteklerinin uzunluk kısıtlamaları vardır. 
+
+
+
+HTTP Metodların 
+
+HTTP Durumları 
+Sunucu ile işlemci arasındaki iletişimin durumuna göre (başarılı, başarılı değil, vb...………….) HTTP mesajları da değişir. 
+
+HTTP durum kodları vardır. Bunlar ;
+1XX: Bilgi amaçlı kodlar                      100 =>  Continue
+2XX: Başarı                                   200 ==> OK, (başarılı yani) 204==> No Content
+3XX: Yeniden Yönlendirme                      308 ==> İstenilen sayfa, temelli olarak başka bir URL'ye taşındı.
+4XX: İşlemci Hataları                         403 ==> Forbidden: İstek düzgün bir istek ama sunucu buna cevap vermeyi reddediyor.
+5XX: Sunucu Hataları                          505 ==> HTTP versiyonu desteklenmiyor. Sunucu, istekteki HTTP protokolünün versiyonunu desteklemiyor. 
+
+
+HTML: Hyper Text Markup Language 
+Bir programlama dili değildir. Web sayfalarını oluşturmak için kullanılan işaretleme dilidir. 
+
+ENQUIRE daha öncesi 
+1990 da html dili geliştirildi. 
+
+HTML 2.0 
+HTML 3.2
+HTML 4.0
+
+
+HTML 5 (EN SON)
+
+W3C (World Wide Web Consortium)
+
+W3Schools 
+
+HTML kodlarını yazmak için Visual Studio Code kullanacağız.
+
+Visual Studio IDE ==> Integrated Development Environment 
+Visiul Studio Code ==> Editor(LightWeight)
+
+visual studio vs visual studio code (İncele arasındaki fark ) uygulamalar vs her şeyine bak !!!!!!!
+
+Visual Studio:
+
+Ağır ve 2,3 GB ila 60 GB gerektirir
+En az 16 GB önerilir
+Kaynak yoğun olduğundan çoğu işletim sisteminde yavaşlar
+Birden fazla panel ve pencere darmadağın görünebilir
+Ücretli sürümlerde kapsamlı set
+Azure DevOps ve TFS'ye bağlanır
+Zengin ve kusursuz hata ayıklama
+C++, C#, JavaScript, TypeScript, Python, .NET vb. gibi programlama dilleri için yerleşik destek.
+
+Visual Code: 
+Hafiftir ve 200 MB'tan daha azıyla çalışabilir
+Çalıştırmak için sadece küçük bir alana ihtiyacı var. 300 MB RAM’e sahip bir makinede çalışabilir.
+Hafiftir, bu da nispeten daha hızlı olmasını sağlar
+Basitleştirilmiş, temel kodlama ve hata ayıklama görevlerine odaklanır
+Uzantılar aracılığıyla desteklenen birim testi
+Gerçek zamanlı işbirliğine dayalı kodlama için canlı paylaşım uzantısı, GitHub ile entegre olur
+Hafif ve modülerdir, uzantılar aracılığıyla çeşitli dillerle çalışır
+JavaScript, TypeScript ve Node JS. Bunun için uzantı(lar) varsa diğer programlama dillerini destekleyebilir
+
+
+HTML için önemli tanımlar: 
+Tag(Etiket) : Herhangi bir görevi gerçekleştiren HTML elemanlarına tag denir. 
+Görev derken, paragraf, link, tablo, form, resim, başlık vb.... 
+
+HTML yazarken, etiketler (tag'ler) kullanılır. Böylece sayfamızda ne olmasını istiyorsak, onun etiketini (tag'ini) kullanılırız.  
+
+Bir tag(etiket) nasıl kullanılır? 
+
+<tagAdı> tagAdı(Hazır olan tag isimleri) 
+
+if(x==5)
+{
+
+}
+<varolantagAdı> metin ya da başka tagler </varolantagadı>
+Açılış tagi                              Kapanış tagi(/ işareti koyularak kapanış yapılır.)
+
+Genellikle, (her zaman değil) bir tag açıldığı zaman bitirilmek istendiği yerde kapatılır. Fakat bazı tagler'in kapanış tag'i yazılmaz. Onlar otomatik olarak kapanmış olur. 
+
+<html>
+
+(Her şey bu araya yazılır..)
+
+<head>
+
+</head>
+
+<body> (Ana içeriğin olduğu yer.)
+
+</body>
+
+</html>
+
+Etiketlerin özellikleri de olabilir. Bunlara attribute denir. (öznitelik)
+ 
+<VarOlanTagAdı özellik1="deger1" özellik2="deger2"> …..
+</varOLanTagAdı>
+
+href özelliği adres verdim yani. 
+
+<br> alt satıra atlamak için kullanılır. 
+
+
+shift+1 = ! (Kısayol gibi düşünülebilir!)
+
+DOM : Document Object Model 
+DOM, HTML ile programlama dilleri arasında bir standart oluşturarak, bu dillerin(programlama dilleri) HTML'den bilgi alıp, bilgi vermesine yardımcı olur. 
+
+HTML elemanlarının hiyerarşik düzenlerinin tutulduğu, yapıdır. Bu yapı sayesinde elemanlara müdahale edilebilir. 
+
+
+Ctrl+K+C yorum satırı açar 
+
+Ctrl+K+U yorum satırını kapatır 
+
+
+
+
+
+
+
+

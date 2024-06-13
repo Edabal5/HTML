@@ -1,0 +1,43 @@
+
+/* Body genel tüm yazılar için yapılacaklar: */
+body{
+
+    font-family: Arial,san-serif;
+    /* Margin biraz daha ortaya çekiyor: */
+    margin: 50px;
+}
+
+/* H1 arasına ne yazıldıysa onun için yapılacaklar:  */
+h1{
+
+    color: blue;
+    /* Testin olacağı yeri belirler:  */
+    text-align: center;   
+}
+
+/* bir liste tanımladık onun için yapılacaklar:  */
+ol{
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 300px;
+
+}
+li{
+    margin-bottom: 10px;
+}
+a{
+    color: green;
+    /*Linki ortalar: */
+    display: block;
+    /* çizgiyi  kaldırır:  */
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Detaylı bilgi için tıklarken ilk gördüğümüzde altı çizili olmasınn üzerine gelindiğinde altını çizsin:  */
+
+a:hover {
+
+    text-decoration: underline;
+}
